@@ -161,6 +161,7 @@ a:active {
     display: block;
     filter: grayscale(100%);
     transition: filer 0.3s ease;
+    opacity: .5;
   }
 
   .brand img:hover {
@@ -395,6 +396,8 @@ a:active {
 .models-guitar {
   width: 320px;
   height: auto;
+  opacity: .5;
+  filter: grayscale(100%);
 }
 
 .models-logo__container {

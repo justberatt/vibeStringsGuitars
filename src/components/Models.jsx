@@ -81,8 +81,8 @@ const GET_BRAND_MODELS = gql`
                 <div className="hero-images__logo__container models-logo_container">
                     <img className="hero-images__logo models-hero__logo" src={Butterfly} alt="Butterfly" />
                 </div>
-                </div>
             </div>
+        </div>
 
         <div className="models-selection__section">
             <h3 className="models-selection__heading">
