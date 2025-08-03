@@ -159,6 +159,13 @@ a:active {
     height: 100%;
     object-fit: contain;
     display: block;
+    filter: grayscale(100%);
+    transition: filer 0.3s ease;
+  }
+
+  .brand img:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
   }
 
   .whyUs-section {
@@ -340,7 +347,6 @@ a:active {
   }
 }
 
-
 .models {
   padding: 0 7.5em;
 }
@@ -376,7 +382,7 @@ a:active {
   position: relative;
   top: 0;
   right: 0;
-  
+
 }
 
 .models-guitar {
@@ -431,6 +437,19 @@ a:active {
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 8px;
+  color: #666;
+  cursor: pointer;
+}
+
+select > option {
+  padding: 1em;
+  color: #666;
+  border-radius: 6px;
+}
+
+select > option:checked {
+  background-color: rgba(255, 100, 40, .06);
+  color: rgba(255, 100, 40, .8);
 }
 
 .models-grid {
@@ -451,6 +470,7 @@ a:active {
 
 .models__item:hover {
   box-shadow: 0 4px 24px rgba(18,18,18,0.12);
+  cursor: pointer;
 }
 
 .models__item-image {
