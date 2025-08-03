@@ -379,10 +379,17 @@ a:active {
 }
 
 .models-hero__images {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
+  height: 450px;
+  width: 572px;
+  background: linear-gradient(#f38d65, #FF6428);
+  border-radius: 11px 27px 119px 342px / 5px 0px 98px 296px;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .models-guitar {

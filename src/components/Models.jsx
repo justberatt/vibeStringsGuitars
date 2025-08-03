@@ -68,22 +68,21 @@ const GET_BRAND_MODELS = gql`
         </button>
 
         <div className="models-hero__section">
-            <div className="models-hero__corner-bg" aria-hidden="true"></div>
             <div className="models-hero__text">
-            <h2 className="models-hero__heading">
-                Play like a <span>Rock star</span>
-            </h2>
-            <p className="models-hero__paragraph">
-                With a legacy dating back to the 1950s, {brand.name} blends expert craftsmanship with cutting-edge innovation to deliver guitars that inspire creativity and elevate your performance. Trusted by top artists worldwide, {brand.name} guitars are built to play fast, sound bold, and stand out on any stage.
-            </p>
+                <h2 className="models-hero__heading">
+                    Play like a <span>Rock star</span>
+                </h2>
+                <p className="models-hero__paragraph">
+                    With a legacy dating back to the 1950s, {brand.name} blends expert craftsmanship with cutting-edge innovation to deliver guitars that inspire creativity and elevate your performance. Trusted by top artists worldwide, {brand.name} guitars are built to play fast, sound bold, and stand out on any stage.
+                </p>
             </div>
             <div className="models-hero__images">
-            <img className="hero-images__guitar models-guitar" src={brand.image} alt="Brand logo" />
-            <div className="hero-images__logo__container models-logo_container">
-                <img className="hero-images__logo models-hero__logo" src={Butterfly} alt="Butterfly" />
+                <img className="hero-images__guitar models-guitar" src={brand.image} alt="Brand logo" />
+                <div className="hero-images__logo__container models-logo_container">
+                    <img className="hero-images__logo models-hero__logo" src={Butterfly} alt="Butterfly" />
+                </div>
+                </div>
             </div>
-            </div>
-        </div>
 
         <div className="models-selection__section">
             <h3 className="models-selection__heading">
